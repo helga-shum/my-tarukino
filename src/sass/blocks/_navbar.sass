@@ -1,0 +1,112 @@
+.navbar
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    background-color: #fff
+    z-index: 1000
+    border-bottom: 1px solid rgba(#510bba, 0.1)
+    &-wrap
+        display: flex
+        align-items: center
+        justify-content: space-between
+        min-height: 80px
+    &__menu-button
+        margin-right: 30px
+    &__contacts
+        display: flex
+        justify-content: space-between
+    &__mobile, &__landline
+        text-align: right
+    &__phone, &__email
+        padding: 0 20px
+        font-size: 19px
+        +bold
+        text-decoration:
+        color: #1c1c1c
+    &__small-text
+        display: block
+        font-size: 14px
+        color: #6b6b6b
+        text-decoration: none
+    .navbar
+
+.menu
+
+    position: fixed
+    top: 80px
+    width: 100%
+    padding: 16px 0
+    left: 0
+    background-color: #b24332
+
+    &__nav
+        display: flex
+        align-items: center
+        justify-content: space-around
+    @media (max-width: 690px)
+        &__nav
+            flex-direction: column
+
+    &__link
+        text-decoration: none
+        font-size: 17px
+        text-transform: uppercase
+        color: #ffffff
+        padding: 10px
+
+    &-button
+        cursor: pointer
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        background-color: transparent
+        border: none
+        border-right: 1px solid rgba(#510bba, 0.1)
+        border-left: 1px solid rgba(#510bba, 0.1)
+        height: 80px
+        width: 70px
+        &__line
+            display: block
+            width: 20px
+            height: 3px
+            background-color: #b24332
+            margin: 2px 0
+.logo
+    cursor: pointer
+    &__text
+        display: block
+        font-size: 18px
+        text-transform: uppercase
+        +bold
+    &__description
+        display: block
+        font-size: 14px
+        color: #6b6b6b
+        font-size: 14px
+
+@media (max-width: 600px)
+    .logo
+        &__text
+            font-size: 12px
+    .navbar
+        &__phone, &__email
+            font-size: 12px
+@media (max-width: 576px)
+    .button-o
+        font-size: 12px
+@media (max-width: 800px)
+    .logo
+        &__description
+            display: none
+@media (max-width: 1000px)
+    .navbar
+        &__small-text
+            display: none
+        &__contacts
+            flex-direction: column
+@media (max-width: 500px)
+    .navbar
+        &-button
+            display: none

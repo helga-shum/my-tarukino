@@ -1,0 +1,48 @@
+body
+    +light
+.button
+    text-decoration: none
+    border: none
+    text-transform: uppercase
+    padding: 25px 45px
+    background-color: #b24332
+    color: #fff
+    +bold
+    &:hover
+        cursor: pointer
+    &-fitting
+        color: #b24332
+        background-color: #fff
+    &-add
+        background-color: lighten(#b24332, 10%)
+        color: #ffffff
+    &-like
+        background-color: #b24332
+        height: 30px
+        border: none
+        width: 30px
+    &-categories
+        padding: 10px
+    &-o
+        cursor: pointer
+        text-decoration: none
+        text-align: center
+        border: 2px solid #b24332
+        padding: 10px
+        height: 60px
+        width: 100px
+        font-size: 12px
+        background-color: #fff
+        color: #b24332
+        text-transform: uppercase
+        &:hover
+            color: #fff
+            background-color: #b24332
+    +bold
+
+@media (max-width: 600px)
+    .button
+        &__img
+            width: 20px
+        span
+            font-size: 12px

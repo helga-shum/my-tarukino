@@ -1,0 +1,235 @@
+{
+    "deserts": [
+        {
+            "id": 0,
+            "image": "https://ltdfoto.ru/images/cakes-1.jpg",
+            "name": "Черный принц",
+            "price": 803,
+            "category": 5
+        },
+        {
+            "id": 1,
+            "image": "https://ltdfoto.ru/images/cakes-2.jpg",
+            "name": "Торт с ореховым кремом",
+            "price": 803,
+            "category": 5
+        },
+        {
+            "id": 2,
+            "image": "https://ltdfoto.ru/images/cakes-3.jpg",
+            "name": "Лимонный торт",
+            "price": 803,
+            "category": 5
+        },
+        {
+            "id": 3,
+            "image": "https://ltdfoto.ru/images/cakes-4.jpg",
+            "name": "Торт с арахисовой пастой",
+            "price": 803,
+            "category": 5
+        },
+        {
+            "id": 4,
+            "image": "https://ltdfoto.ru/images/cakes-5.jpg",
+            "name": "Сметанник",
+            "price": 803,
+            "category": 5
+        },
+        {
+            "id": 5,
+            "image": "https://ltdfoto.ru/images/cakes-6.jpg",
+            "name": "Фисташковый торт",
+            "price": 803,
+            "category": 5
+        },
+        {
+            "id": 6,
+            "image": "https://ltdfoto.ru/images/cakes-7.jpg",
+            "name": "Смородиновый торт",
+            "price": 803,
+            "category": 5
+        },
+        {
+            "id": 7,
+            "image": "https://ltdfoto.ru/images/cakes-8.jpg",
+            "name": "Творожный торт с корицей",
+            "price": 803,
+            "category": 5
+        },
+        {
+            "id": 8,
+            "image": "https://ltdfoto.ru/images/candies-1.jpg",
+            "name": "Клубника в шоколаде",
+            "price": 803,
+            "category": 1
+        },
+        {
+            "id": 9,
+            "image": "https://ltdfoto.ru/images/candies-2.jpg",
+            "name": "Конфеты с фундуком",
+            "price": 803,
+            "category": 1
+        },
+        {
+            "id": 10,
+            "image": "https://ltdfoto.ru/images/candies-3.jpg",
+            "name": "Ассорти",
+            "price": 803,
+            "category": 1
+        },
+        {
+            "id": 11,
+            "image": "https://ltdfoto.ru/images/candies-4.jpg",
+            "name": "Смаколики",
+            "price": 803,
+            "category": 1
+        },
+        {
+            "id": 12,
+            "image": "https://ltdfoto.ru/images/candies-5.jpg",
+            "name": "Леденцы",
+            "price": 803,
+            "category": 1
+        },
+        {
+            "id": 13,
+            "image": "https://ltdfoto.ru/images/cheese-1.jpg",
+            "name": "Вишневый чизкейк",
+            "price": 803,
+            "category": 3
+        },
+        {
+            "id": 14,
+            "image": "https://ltdfoto.ru/images/cheese-2.jpg",
+            "name": "Малиновый чизкейк",
+            "price": 803,
+            "category": 3
+        },
+        {
+            "id": 15,
+            "image": "https://ltdfoto.ru/images/cheese-3.jpg",
+            "name": "Смородиновый чизкейк",
+            "price": 803,
+            "category": 3
+        },
+        {
+            "id": 16,
+            "image": "https://ltdfoto.ru/images/cheese-4.jpg",
+            "name": "Карамельный чизкейк",
+            "price": 803,
+            "category": 3
+        },
+        {
+            "id": 17,
+            "image": "https://ltdfoto.ru/images/cookies-1.jpg",
+            "name": "Песочное печенье",
+            "price": 803,
+            "category": 4
+        },
+        {
+            "id": 18,
+            "image": "https://ltdfoto.ru/images/cookies-2.jpg",
+            "name": "Макароны",
+            "price": 803,
+            "category": 4
+        },
+        {
+            "id": 19,
+            "image": "https://ltdfoto.ru/images/cookies-3.jpg",
+            "name": "Рождественское печенье",
+            "price": 803,
+            "category": 4
+        },
+        {
+            "id": 20,
+            "image": "https://ltdfoto.ru/images/cookies-4.jpg",
+            "name": "Злаковое печенье",
+            "price": 803,
+            "category": 4
+        },
+        {
+            "id": 21,
+            "image": "https://ltdfoto.ru/images/cookies-5.jpg",
+            "name": "Шоколадные макароны",
+            "price": 803,
+            "category": 4
+        },
+        {
+            "id": 22,
+            "image": "https://ltdfoto.ru/images/cookies-6.jpg",
+            "name": "Печенье с шоколадом",
+            "price": 803,
+            "category": 4
+        },
+        {
+            "id": 23,
+            "image": "https://ltdfoto.ru/images/cookies-7.jpg",
+            "name": "Шоколадное печенье с апельсиновой цедрой",
+            "price": 803,
+            "category": 4
+        },
+        {
+            "id": 24,
+            "image": "https://ltdfoto.ru/images/cookies-8.jpg",
+            "name": "Пражское печенье",
+            "price": 803,
+            "category": 4
+        },
+        {
+            "id": 25,
+            "image": "https://ltdfoto.ru/images/cupcakes-1.jpg",
+            "name": "Кексы с клубничным кремом",
+            "price": 803,
+            "category": 2
+        },
+        {
+            "id": 26,
+            "image": "https://ltdfoto.ru/images/cupcakes-2.jpg",
+            "name": "Небесные кексы",
+            "price": 803,
+            "category": 2
+        },
+        {
+            "id": 27,
+            "image": "https://ltdfoto.ru/images/cupcakes-3.jpg",
+            "name": "Кексы с малиновым кремом",
+            "price": 803,
+            "category": 2
+        },
+        {
+            "id": 28,
+            "image": "https://ltdfoto.ru/images/cupcakes-4.jpg",
+            "name": "Любовные кексы",
+            "price": 803,
+            "category": 2
+        },
+        {
+            "id": 29,
+            "image": "https://ltdfoto.ru/images/pies-1.jpg",
+            "name": "Ягодный пирог",
+            "price": 803,
+            "category": 0
+        },
+        {
+            "id": 30,
+            "image": "https://ltdfoto.ru/images/pies-2.jpg",
+            "name": "Малиновый пирог",
+            "price": 803,
+            "category": 0
+        },
+        {
+            "id": 31,
+            "image": "https://ltdfoto.ru/images/pies-3.jpg",
+            "name": "Апельсиновый пирог",
+            "price": 803,
+            "category": 0
+        },
+        {
+            "id": 32,
+            "image": "https://ltdfoto.ru/images/pies-4.jpg",
+            "name": "Пирог с ежевикой и клубникой",
+            "price": 803,
+            "category": 0
+        }
+    ]
+}

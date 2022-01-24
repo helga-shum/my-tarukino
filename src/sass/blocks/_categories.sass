@@ -1,0 +1,37 @@
+.categories
+    ul
+        display: flex
+        justify-content: space-between
+        padding-top: 72px
+        list-style: none
+        outline: none
+        flex-wrap: wrap
+
+.item
+    &-block
+        width: 285px
+        text-align: center
+        margin-bottom: 65px
+        margin-right: 3.7%
+        border: 1px solid rgba(#510bba, 0.1)
+        &__text
+            padding: 10px
+        &__image
+            width: 285px
+            height: 190px
+        &__bottom
+            display: flex
+            align-items: center
+            justify-content: space-between
+            margin-top: 20px
+.content
+    &__items
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+.sort
+    padding: 10px
+    margin-bottom: 20px
+@media (max-width: 990px)
+    .categories
+        ul
