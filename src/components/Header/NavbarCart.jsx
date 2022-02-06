@@ -32,33 +32,33 @@ function NavbarCart() {
     return (
         <div className="navbar">
             <div className="container">
-                <div class="navbar-wrap">
-                    <button ref={menuRef} class="menu-button navbar__menu-button" onClick={toogleMenu}>
-                        <span class="menu-button__line"></span>
-                        <span class="menu-button__line"></span>
-                        <span class="menu-button__line"></span>
+                <div className="navbar-wrap">
+                    <button ref={menuRef} className="menu-button navbar__menu-button" onClick={toogleMenu}>
+                        <span className="menu-button__line"></span>
+                        <span className="menu-button__line"></span>
+                        <span className="menu-button__line"></span>
                     </button>
-                    <div class="logo navbar__logo">
-                        <strong class="logo__text">tarukino</strong>
-                        <span class="logo__description">
+                    <div className="logo navbar__logo">
+                        <strong className="logo__text">tarukino</strong>
+                        <span className="logo__description">
                             ведущий производитель десертов в городе
                         </span>
                     </div>
                     <div className="navbar__contacts">
-                        <div class="navbar__mobile">
-                            <a class="navbar__phone" href="tel:+380688780194">+380688780194</a>
-                            <span class="navbar__work-time navbar__small-text">без выходных 9-21</span>
+                        <div className="navbar__mobile">
+                            <a className="navbar__phone" href="tel:+380688780194">+380688780194</a>
+                            <span className="navbar__work-time navbar__small-text">без выходных 9-21</span>
                         </div>
-                        <div class="navbar__landline">
-                            <a class="navbar__email" href="#">tarukino_kh@gmail.com</a>
-                            <a href="mailto:incertus.helga@gmail.com" class="navbar__email navbar__small-text">shumilova</a>
+                        <div className="navbar__landline">
+                            <a className="navbar__email" href="#">tarukino_kh@gmail.com</a>
+                            <a href="mailto:incertus.helga@gmail.com" className="navbar__email navbar__small-text">shumilova</a>
                         </div>
                     </div>
                     <Link to="/cart">
-                        <button class="button button__cart">
+                        <button className="button button__cart">
                             <span>{totalPrice}$</span>
-                            <div class="button__delimiter"></div>
-                            <img class="button__img" src="./img/cart/shopping-cart.png" alt="cart" />
+                            <div className="button__delimiter"></div>
+                            <img className="button__img" src="./img/cart/shopping-cart.png" alt="cart" />
                             <span>{totalCount}</span>
                         </button>
                     </Link>

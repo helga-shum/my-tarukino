@@ -3,35 +3,35 @@ import React from 'react'
 function Offer() {
     return (
         <div>
-            <section id="offer" class="offer">
-                <div class="container">
-                    <div class="offer__block offer-block offer-block_price-bg">
-                        <h2 class="offer__title">
+            <section id="offer" className="offer">
+                <div className="container">
+                    <div className="offer__block offer-block offer-block_price-bg">
+                        <h2 className="offer__title">
                             Ищите где дешевле и лучше?
                         </h2>
-                        <span class="offer__subtitle">
+                        <span className="offer__subtitle">
                             Обращайтксь к нам
                         </span>
-                        <form action="#" class="form offer__form">
-                            <div class="form__row">
-                                <div class="form__group">
-                                    <input type="text" class="input form__input" placeholder="Ваше имя" />
+                        <form action="#" className="form offer__form">
+                            <div className="form__row">
+                                <div className="form__group">
+                                    <input type="text" className="input form__input" placeholder="Ваше имя" />
                                 </div>
-                                <div class="form__group">
-                                    <input type="text" class="input form__input" placeholder="Ваш телефон" />
+                                <div className="form__group">
+                                    <input type="text" className="input form__input" placeholder="Ваш телефон" />
                                 </div>
-                                <div class="form__group">
-                                    <input type="text" class="input form__input" placeholder="Ваша цена" />
+                                <div className="form__group">
+                                    <input type="text" className="input form__input" placeholder="Ваша цена" />
                                 </div>
                             </div>
 
-                            <div class="form__row">
+                            <div className="form__row">
 
-                                <div class="form__group">
-                                    <input type="submit" class="button form__button form__button-price" value="Получить расчет со скидкой" />
+                                <div className="form__group">
+                                    <input type="submit" className="button form__button form__button-price" value="Получить расчет со скидкой" />
                                 </div>
-                                <div class="form__group">
-                                    <span class="form__policy">
+                                <div className="form__group">
+                                    <span className="form__policy">
                                         Ваши данные надежно защищенны
                                     </span>
                                 </div>

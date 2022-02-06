@@ -1,8 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import Categories from '../components/Categories';
 import DesertBlock from '../components/DesertBlock';
-import Menu from '../components/Header/Menu';
 import { fetchDeserts } from '../redux/actions/deserts'
 import { useSelector, useDispatch } from 'react-redux';
 import { setCategory } from './../redux/actions/filters';
@@ -53,13 +51,13 @@ function Home() {
         <div>
             <div className="navbar">
 
-                <div class="container">
+                <div className="container">
                     <NavbarCart />
                 </div>
             </div>
-            <section class="section content">
-                <div class="container">
-                    <div class="content__top">
+            <section className="section content">
+                <div className="container">
+                    <div className="content__top">
                         <Categories
                             activeCategory={category}
                             onClickCategory={onSelectItem}
@@ -67,7 +65,7 @@ function Home() {
 
                     </div>
 
-                    <div class="content__items">
+                    <div className="content__items">
                         {isLoaded
                             ? items.map(obj => <DesertBlock onAddDesert={onAddDesertToCart} key={obj.id} {...obj} />)
                             : Array(36)

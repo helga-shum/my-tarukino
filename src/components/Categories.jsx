@@ -11,7 +11,7 @@ const Categories = React.memo(function Categories({ names, activeCategory, onCli
 
 
 
-            <div class="categories">
+            <div className="categories">
                 <ul>
                     <li onClick={() => onClickCategory(null)} className={activeCategory === null ? 'button button' : 'button-o button-categories'}>Все виды</li>
 

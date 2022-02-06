@@ -33,19 +33,19 @@ function Cart() {
     }
 
     return (
-        <div class="cart">
-            <div class="container">
+        <div className="cart">
+            <div className="container">
                 {
                     totalCount ? <div className="cart-block">
                         <NavbarCart />
                         <div className="cart-header">
                             <div className="cart__title">
-                                <img src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/000000/external-cart-user-interface-icongeek26-glyph-icongeek26.png" />
+                                <img src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/000000/external-cart-user-interface-icongeek26-glyph-icongeek26.png" alt="cart" />
                                 <h2>Корзина</h2>
 
                             </div>
                             <button className="cart__empty">
-                                <img src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/50/000000/external-trash-user-interface-kmg-design-glyph-kmg-design.png" />
+                                <img src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/50/000000/external-trash-user-interface-kmg-design-glyph-kmg-design.png" alt="empty" />
                                 <p onClick={onClearCart}>Очистить корзину</p>
                             </button>
                         </div>
@@ -76,7 +76,7 @@ function Cart() {
                             <div className="cart__buttons">
                                 <Link to="/home" >
                                     <button className="cart__back">
-                                        <img src="https://img.icons8.com/ios-filled/50/000000/u-turn-to-left.png" />
+                                        <img src="https://img.icons8.com/ios-filled/50/000000/u-turn-to-left.png" alt="back" />
                                         <p>Вернуться назад</p>
                                     </button>
                                 </Link>
@@ -89,7 +89,7 @@ function Cart() {
                         <NavbarCart />
                         <div className="cart-empty__wrap">
                             <p className="cart-empty__text">КОРЗИНА ПУСТАЯ</p>
-                            <img className="cart-empty__img" src={empty}></img>
+                            <img className="cart-empty__img" src={empty} alt="cart-empty"></img>
                             <Link to="/home" className="button cart-empty__back"><span>вернуться назад</span></Link>
                         </div>
                     </div>

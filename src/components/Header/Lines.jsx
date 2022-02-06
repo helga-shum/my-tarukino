@@ -5,9 +5,9 @@ function Lines() {
     return (
         <div>
             <button class="menu-button navbar__menu-button" onClick={() => setVisibleMenu(!visibleMenu)}>
-                <span class="menu-button__line"></span>
-                <span class="menu-button__line"></span>
-                <span class="menu-button__line"></span>
+                <span className="menu-button__line"></span>
+                <span className="menu-button__line"></span>
+                <span className="menu-button__line"></span>
             </button>
         </div>
     )

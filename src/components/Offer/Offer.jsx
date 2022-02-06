@@ -15,22 +15,22 @@ function Offer() {
                         <form action="#" className="form offer__form">
                             <div className="form__row">
                                 <div class="form__group">
-                                    <label for="" className="form label">Вид стекла</label>
+                                    <label className="form label">Вид стекла</label>
                                     <input type="text" className="input form__input" />
                                 </div>
                                 <div className="form__group">
-                                    <label for="" className="form label">Ширина, см</label>
+                                    <label className="form label">Ширина, см</label>
                                     <input type="text" className="input form__input" />
                                 </div>
                                 <div className="form__group">
-                                    <label for="" className="form label">Высота, см</label>
+                                    <label className="form label">Высота, см</label>
                                     <input type="text" className="input form__input" />
                                 </div>
                             </div>
                             <div className="form__row form__row-checkbox">
                                 <div className="form__checkbox">
                                     <input className="checkbox" type="checkbox" id="install" />
-                                    <label className="checkbox-label" for="install">
+                                    <label className="checkbox-label" htmlFor="install">
 
                                         Монтаж
                                     </label>
@@ -38,7 +38,7 @@ function Offer() {
                                 </div>
                                 <div className="form__checkbox">
                                     <input className="checkbox" type="checkbox" id="delivery" />
-                                    <label className="checkbox-label" for="delivery">
+                                    <label className="checkbox-label" htmlFor="delivery">
 
                                         Доставка
                                     </label>

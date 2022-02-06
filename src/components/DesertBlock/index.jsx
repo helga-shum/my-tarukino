@@ -8,22 +8,22 @@ function DesertBlock({ id, name, price, image, onAddDesert }) {
     }
     return (
         <div>
-            <div class="item-block">
-                <div class="item-block__image">
-                    <img src={image} />
+            <div className="item-block">
+                <div className="item-block__image">
+                    <img src={image} alt="img" />
                 </div>
                 <div className="item-block__text">
-                    <h4 class="item-block__title">
+                    <h4 className="item-block__title">
                         {name}
                     </h4>
-                    <div class="item-block__bottom">
-                        <div class="item-block__price">
+                    <div className="item-block__bottom">
+                        <div className="item-block__price">
                             {price}
                         </div>
-                        <button onClick={onClickAddDesert} class="button-o ">
+                        <button onClick={onClickAddDesert} className="button-o ">
                             <span>Добавить</span>
                         </button>
-                </div>
+                    </div>
                 </div>
 
             </div>

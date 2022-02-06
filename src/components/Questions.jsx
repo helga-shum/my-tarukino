@@ -3,16 +3,16 @@ import React from 'react'
 function Questions() {
     return (
         <div>
-            <section class="section questions">
-            <div class="container">
-                <div class="questions-block">
-                    <h3 class="questions__title">
-                        Остались вопросы?
-                    </h3>
-                    <a href="#" class="questions__link">Задайте их менеджеру</a>
+            <section className="section questions">
+                <div className="container">
+                    <div className="questions-block">
+                        <h3 className="questions__title">
+                            Остались вопросы?
+                        </h3>
+                        <a href="#" className="questions__link">Задайте их менеджеру</a>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
         </div>
     )
 }
