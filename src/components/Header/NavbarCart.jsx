@@ -13,7 +13,7 @@ function NavbarCart() {
     const handleOutsideClick = (e) => {
         if (!e.path.includes(menuRef.current)) {
             setVisibleMenu(false)
-            console.log('pizda')
+
         }
     }
 
